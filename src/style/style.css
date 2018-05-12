@@ -1,4 +1,4 @@
-.qrcode-container{
+.ctx-qrcode_container{
     position: fixed;
     top: 10px;
     right: 10px;
@@ -13,11 +13,11 @@
     flex-wrap: wrap;
     overflow: hidden;
 }
-.qrcode-solt{
+.ctx-qrcode_solt{
     width: 128px;
     height: 128px;
 }
-.footer {
+.ctx-qrcode_footer {
     width: 100%;
     color: #999;
     font-size: 12px;

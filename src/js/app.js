@@ -11,16 +11,15 @@ export const insertCSS = function(css, id) {
 }
 
 const generateQR = (url) => {
-    return QRCode.toDataURL(url).then(base64=>base64);
+    return QRCode.toDataURL(url);
 }
 
 const createDOM = (base64) => {
-     console.log(base64);
     let container = document.createElement('div');
-    container.className = 'qrcode-container';
+    container.className = 'ctx-qrcode_container';
     container.innerHTML = `
-    <img src= ${base64} class="qrcode-solt"/>
-    <div class="footer">Powered by <a href="https://github.com/soldair/node-qrcode">node-qrcode</a></div>
+    <img src= ${base64} class="ctx-qrcode_solt"/>
+    <div class="ctx-qrcode_footer">Powered by <a href="https://github.com/soldair/node-qrcode">node-qrcode</a></div>
     `;
     document.body.appendChild(container);
 }
