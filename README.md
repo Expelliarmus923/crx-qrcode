@@ -4,7 +4,7 @@
 
 # 使用
 
-由于Chrome应用商店$8的入会费（qiong）的限制以及照顾没梯子的小伙伴，所以只放出压缩包。点击[这里](https://github.com/lzlu/crx-qrcode/blob/master/qrcode.zip)下载
+由于Chrome应用商店$8的入会费（qiong）的限制以及照顾没梯子的小伙伴，所以只放出压缩包。点击[这里](https://github.com/lzlu/crx-qrcode/blob/master/qrcode.zip)下载。解压之后用chrome打开chrome://extensions/ ，打开已解压文件。
 
 # 开发
 
